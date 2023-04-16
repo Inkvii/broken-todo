@@ -1,5 +1,5 @@
 {
-  "name": "INSERT_YOUR_NAME",
+  "name": "broken-todo",
   "private": true,
   "version": "0.1.0",
   "type": "module",
@@ -11,26 +11,27 @@
     "prettier": "prettier --cache --write ./src",
     "lint": "eslint --ext .ts,.tsx,.js,.jsx --ignore-path .gitignore src"
   },
- "dependencies": {
+  "dependencies": {
     "clsx": "^1.2.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.10.0"
   },
   "devDependencies": {
-    "@tailwindcss/forms": "^0.5.3",
     "@types/eslint": "^8.37.0",
     "@types/react": "^18.0.31",
     "@types/react-dom": "^18.0.11",
-    "@typescript-eslint/parser": "^5.57.0",
+    "@typescript-eslint/eslint-plugin": "^5.58.0",
+    "@typescript-eslint/parser": "^5.58.0",
     "@vitejs/plugin-react": "^3.1.0",
     "autoprefixer": "^10.4.14",
-    "eslint": "^8.37.0",
+    "eslint": "^8.38.0",
     "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-react": "^7.32.2",
     "postcss": "^8.4.21",
     "prettier": "^2.8.7",
     "tailwindcss": "^3.3.1",
-    "typescript": "^5.0.3",
+    "typescript": "^5.0.4",
     "vite": "^4.2.1",
     "vite-plugin-eslint": "^1.8.1",
     "vite-tsconfig-paths": "^4.0.7",

@@ -6,7 +6,6 @@ module.exports = {
 		extend: {},
 	},
 	plugins: [
-    require("@tailwindcss/forms"),
     function ({ addVariant }) {
       addVariant("child", "& > *")
     },
